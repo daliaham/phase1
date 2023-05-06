@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/backgroung"
+    tools:context=".DivisionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/division"
+        android:fontFamily="cursive"
+        android:paddingVertical="70dp"
+        android:textAlignment="center"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_marginLeft="25dp">
+
+        <RadioButton
+            android:id="@+id/radioTrue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="True"
+            android:layout_marginTop="250dp"
+            android:checked="false"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioFalse"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:textSize="20sp" />
+    </RadioGroup>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/button_login"
+        android:text="Submit"
+        tools:ignore="MissingClass" />
+
+
+</RelativeLayout>

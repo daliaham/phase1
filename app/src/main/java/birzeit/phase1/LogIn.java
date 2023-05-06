@@ -19,13 +19,27 @@ public class LogIn extends AppCompatActivity {
         edt1 = findViewById(R.id.edt1);
         edt2 = findViewById(R.id.edt2);
 
-    }
-    public void signup(View view) {
-//String str= edt1.toString()+edt2.toString();
-        Intent in = new Intent(this, SignUp.class);
-        startActivity(in);
-        // Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
+        btn = (Button) findViewById(R.id.btn);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openListView();
+            }
+        });
 
 
+
     }
+
+    public void openListView(){
+        Intent intent = new Intent(this, listview.class);
+        startActivity(intent);
+
+    }
+
+
+public void login(View view) {
+    Intent in = new Intent(this, listview.class);
+    startActivity(in);
+}
 }

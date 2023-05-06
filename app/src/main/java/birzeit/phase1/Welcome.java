@@ -16,11 +16,11 @@ public class Welcome extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
 
     }
-    public void signup(View view) {
-
-        Intent in = new Intent(this, birzeit.phase1.SignUp.class);
-        startActivity(in);
-    }
+//    public void signup(View view) {
+//
+//        Intent in = new Intent(this, birzeit.phase1.SignUp.class);
+//        startActivity(in);
+//    }
 
     public void login(View view) {
         Intent in = new Intent(this, LogIn.class);
