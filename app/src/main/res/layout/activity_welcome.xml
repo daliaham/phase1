@@ -27,4 +27,15 @@
         android:background="@drawable/button_login"
         android:text="@string/login"
         tools:ignore="MissingClass,OnClick,UsingOnClickInXml" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/but1"
+        android:layout_marginTop="-100dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/button_login"
+        android:text="More"
+        tools:ignore="MissingClass" />
+
 </LinearLayout>
